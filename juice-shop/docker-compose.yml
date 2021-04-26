@@ -1,0 +1,6 @@
+juice-shop:
+  image: bkimminich/juice-shop
+  expose:
+    - 3000
+  environment:
+    - "VIRTUAL_HOST=juice-shop.hottek.dev"

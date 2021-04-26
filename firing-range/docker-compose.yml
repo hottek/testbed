@@ -1,0 +1,6 @@
+firing-range:
+  image: 0xshyam/firingrange
+  expose:
+    - 8080
+  environment:
+    - "VIRTUAL_HOST=firing-range.hottek.dev"
