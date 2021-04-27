@@ -1,0 +1,10 @@
+app: 
+  build: .
+  command: npm start
+  ports: 
+     - "8005:8005"
+  volumes: 
+     - .:/home/node/app
+  environment:
+     - "VIRTUAL_HOST=openui5-testbed.hottek.dev"
+     - "LETSENCRYPT_HOST=openui5-testbed.hottek.dev"
