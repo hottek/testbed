@@ -1,0 +1,2 @@
+sudo  docker run --detach     --name nginx-proxy-acme     --volumes-from testbed_nginx-testbed-proxy_1    --volume /var/run/docker.sock:/var/run/docker.sock     --volu
+me acme:/etc/acme.sh     --env "DEFAULT_EMAIL=dev@mardybum.de"     nginxproxy/acme-companion

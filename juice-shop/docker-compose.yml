@@ -4,3 +4,4 @@ juice-shop:
     - 3000
   environment:
     - "VIRTUAL_HOST=juice-shop.hottek.dev"
+    - "LETSENCRYPT_HOST=juice-shop.hottek.dev"
