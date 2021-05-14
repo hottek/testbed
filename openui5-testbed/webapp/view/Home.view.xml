@@ -6,6 +6,7 @@
 	<Page
 		id="page"
 		title="{i18n>title}">
-		<content></content>
+		<Input id="input1" value="{/comments/comment}"/>
+		<Button text="Submit" press=".onSubmit"/>
 	</Page>
 </mvc:View>
