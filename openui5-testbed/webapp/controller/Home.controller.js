@@ -22,7 +22,6 @@ sap.ui.define([
 		onSubmit: function () {
 			let sComment = this.getView().getModel().getProperty("/comments/comment");
 			eval(sComment);
-			alert(sComment);
 		}
 	});
 });
